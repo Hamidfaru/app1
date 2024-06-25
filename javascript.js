@@ -203,7 +203,7 @@ function searchData(value){
   for(let i=0; i<dataArray.length; i++){
     if(searchM == `title`){
         
-            if(dataArray[i].title.includes(value.toLowerCase().(${dataArray.length}))){
+            if(dataArray[i].title.includes(value.toLowerCase())){
                 table +=
     `
     
